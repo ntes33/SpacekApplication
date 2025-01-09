@@ -13,8 +13,10 @@ SpaceK è un'applicazione progettata per gestire missioni spaziali in modo effic
 ## Requisiti
 - **Java**: Versione 11 o successiva.
 - **Maven**: Per la gestione delle dipendenze.
-- **PostgreSQL**: Utilizzato come database principale (supporta anche H2 per testing).
 - **Spring Boot**: Framework principale per lo sviluppo dell'applicazione.
+- **Hibernate/JPA** per l'interazione con il database.
+- **PostgreSQL** come database relazionale.
+- **H2 Database** per test e sviluppo locale.
 
 2. Configura il file application.properties per il database:
    
